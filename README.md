@@ -1,5 +1,5 @@
 # ZedInstall
-<h1>HOW TO USE:</h1>
+<h3>HOW TO USE:</h3>
 <li>
     <ul>Download the script (zedinstall.ps1)</ul></li>
     <li>
