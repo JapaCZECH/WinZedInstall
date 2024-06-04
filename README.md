@@ -1,4 +1,4 @@
-# ZedInstall
+# WinZedInstall
 <h3>HOW TO USE:</h3>
 <li>
     <ul>Download the script (zedinstall.ps1)</ul></li>
