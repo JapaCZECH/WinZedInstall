@@ -1,3 +1,8 @@
+if ([System.AppDomain]::CurrentDomain.FriendlyName -like "*.exe") {
+    Write-Output "You are trying to run this script as an executable, which would result some errors. Please run the ps1 script."
+    Exit
+} 
+
 Clear-Host
 Write-Output "WELCOME TO JAPACZECH'S ZED INSTALLATION SCRIPT FOR WINDOWS!"
 Write-Output "==========================================================="
