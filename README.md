@@ -11,6 +11,15 @@
      ```
 4. **The script will now start!**
 
-### DEPENDENCIES:
+### REQUIRED DEPENDENCIES:
+
+- Rust
+- Git
+- Windows 10/11 64-bit
+- MSVC (Microsoft Visual C++) - VS YYYY C++ x64/x86 build tools (latest)
+
+### INSTALLING DEPENDENCIES:
+
+#### Using `installdependencies.ps1`:
 
 - **Run** `installdependencies.ps1` to install dependencies **except** C++ build tools.
