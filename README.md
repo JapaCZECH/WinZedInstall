@@ -1,12 +1,16 @@
 # WinZedInstall
-<h3>HOW TO USE:</h3>
-<li>
-    <ul>Download the script (zedinstall.ps1)</ul></li>
-    <li>
-  <ul>It's recommended to have or atleast execute the script in the parent dir where Zed should be.</ul></li>
-  <li><ul>Run the script using <pre>&ltscriptdir&gt/zedinstall</pre> in powershell (if it shows an error saying something about "Execution policy" run <pre>Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
-</pre>).</ul></li>
-  <li><ul>Now the script started!</ul></li>
 
-<h3>DEPENDENCIES:</h3>
-<li><ul>Run the installdependencies.ps1 to install dependencies EXCEPT c++ build tools.</ul></li>
+### HOW TO USE:
+
+1. **Download the script** (`zedinstall.ps1`)
+2. **Execute the script** in the parent directory where Zed should be.
+3. **Run the script** using `.\zedinstall.ps1` in PowerShell:
+   - If you encounter an error regarding "Execution policy", run:
+     ```powershell
+     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+     ```
+4. **The script will now start!**
+
+### DEPENDENCIES:
+
+- **Run** `installdependencies.ps1` to install dependencies **except** C++ build tools.
