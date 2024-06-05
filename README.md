@@ -7,4 +7,5 @@
   <li><ul>Run the script using <pre>&ltscriptdir&gt/zedinstall</pre> in powershell.</ul></li>
   <li><ul>Now the script started!</ul></li>
 
-
+<h3>DEPENDENCIES:</h3>
+<li><ul>Run the installdependencies.ps1 to install dependencies EXCEPT c++ build tools.</ul></li>
