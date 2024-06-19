@@ -70,7 +70,4 @@ while ($true)
     }
 }
 Set-Location ..
-New-Item -Path .\release
-Move-Item .\zed\target\release .\release 
-Write-Output "Zed location is in $currentDir\zed\"
 Write-Output "Zed build location is in $currentDir\release\Zed.exe"
