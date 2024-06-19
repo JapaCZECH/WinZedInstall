@@ -70,4 +70,4 @@ while ($true)
     }
 }
 Set-Location ..
-Write-Output "Zed build location is in $currentDir\release\Zed.exe"
+Write-Output "Zed build location is in $currentDir\zed\target\release\Zed.exe"
